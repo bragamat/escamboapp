@@ -8,12 +8,14 @@ end
 #Flexible authentication solution for Rails with Warden. http://blog.plataformatec.com.br/tag/…
 gem 'devise'
 
+
 #Translations for the devise gem
 gem 'devise-i18n'
 
 
 gem 'rails-i18n'
 gem 'foreman'
+gem 'bootstrap_sb_admin_base_v2'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -47,7 +49,8 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'better_errors', '~> 2.3'
-    gem "binding_of_caller"
+  gem "binding_of_caller"
+  gem 'rails-erd'
 end
 
 group :development do
